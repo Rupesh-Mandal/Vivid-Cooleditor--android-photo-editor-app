@@ -1,0 +1,19 @@
+<resources>
+    <declare-styleable name="AVLoadingIndicatorView">
+        <attr name="minWidths" format="dimension" />
+        <attr name="maxWidths" format="dimension"/>
+        <attr name="minHeights" format="dimension" />
+        <attr name="maxHeights" format="dimension"/>
+        <attr name="indicatorNames" format="string"/>
+        <attr name="indicatorColors" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="MaskableLayouts">
+        <attr name="mask" format="reference"/>
+        <attr name="porterduffxfermode" format="enum">
+            <enum name="DST_IN" value="5"/>
+        </attr>
+        <attr name="anti_aliasing" format="boolean"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,23 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:orientation="horizontal">
+
+    <com.kali_corporation.vividcooleditor.ui.SquareFrameLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ThemePreviewImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+           android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_foreground"/>
+
+    </com.kali_corporation.vividcooleditor.ui.SquareFrameLayout>
+
+</LinearLayout>
